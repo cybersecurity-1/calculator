@@ -1,0 +1,45 @@
+.box1{
+    width: 300px;
+    height: 550px;
+    background-color: black;
+    position: relative;
+}
+.input1{
+    min-width: 300px;
+    min-height: 100px;
+    position: absolute;
+    top: calc(50% - 28%);
+}
+.box1-inbox1{
+    
+    position: absolute;
+    bottom: 0;
+    width: 300px;
+    height: 330px;
+    background-color: rgba(128, 128, 128, 0.26);
+}
+.circle-box1{
+    display: flex;
+    justify-content: space-around;
+}
+.circle{
+    width: 55px;
+    height: 55px;
+    border: 0px solid;
+    border-radius: 50%;
+}
+.black-circle{
+    width: 55px;
+    height: 55px;
+    border: 0px solid;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.37);
+    color: white;
+}
+.yellow-circle{
+    width: 55px;
+    height: 55px;
+    border: 0px solid;
+    border-radius: 50%;
+    background-color: rgb(255, 208, 0);
+}
