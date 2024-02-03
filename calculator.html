@@ -15,16 +15,16 @@
         <div class="col-12">
             <div class="inbox1 pt-5">
                 <div class="box1">
-                    <input type="text" class="input1" name="" id="">
+                    <input type="text" id="input1" name="">
                     <div class="box1-inbox1">
                       <div class="circle-box1 mt-3">
                         <button class="circle">C</button>
                         <button class="circle">%</button>
                         <button class="circle"><i class="bi bi-backspace"></i></button>
-                        <button class="circle">/</button>
+                        <button class="circle" id="divide" onclick="divide()">/</button>
                       </div>
                       <div class="circle-box1 mt-2">
-                        <button class="black-circle">7</button>
+                        <button class="black-circle" onclick="buttonclick(7);">7</button>
                         <button class="black-circle">8</button>
                         <button class="black-circle">9</button>
                         <button class="circle">X</button>
@@ -53,6 +53,9 @@
         </div>
     </div>
 </div>
+<label for="selfie">take selfie</label>
+<input type="file" id="selfie" capture="user">
+
 
     
 </body>
