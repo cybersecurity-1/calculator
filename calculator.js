@@ -27,13 +27,13 @@ function subtraction(){
 function equal(){
     
     n2=Number(document.getElementById("input1").value);
-    
+    sub2=Number(document.getElementById("input1").value);
     sum=n1+n2;
-    sum=sub1-n2;
+    sub3=sub1-sub2;
     document.getElementById("input1").value=sum;
     
- //   sub2=Number(document.getElementById("input1").value);
+   
    // sub3=sub1-sub2;
-   // document.getElementById("input1").value=sub3;
+    document.getElementById("input1").value=sub3;
 
 }
