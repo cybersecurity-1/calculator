@@ -4,11 +4,13 @@
     background-color: black;
     position: relative;
 }
-.input1{
+#input1{
     min-width: 300px;
     min-height: 100px;
     position: absolute;
     top: calc(50% - 28%);
+   
+  
 }
 .box1-inbox1{
     
