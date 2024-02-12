@@ -19,32 +19,32 @@
                     <div class="box1-inbox1">
                       <div class="circle-box1 mt-3">
                         <button class="circle" id="clear" onclick="cleardisplay()">C</button>
-                        <button class="circle">%</button>
-                        <button class="circle"><i class="bi bi-backspace"></i></button>
+                        <button class="circle" onclick="mode()">%</button>
+                        <button class="circle" id="delete" onclick="deleten();"><i class="bi bi-backspace"></i></button>
                         <button class="circle" id="divide" onclick="divide()">/</button>
                       </div>
                       <div class="circle-box1 mt-2">
                         <button class="black-circle" onclick="buttonclick(7);">7</button>
                         <button class="black-circle" onclick="buttonclick(8)">8</button>
                         <button class="black-circle" onclick="buttonclick(9)">9</button>
-                        <button class="circle">X</button>
+                        <button class="circle" onclick="multiplication()">X</button>
                       </div>
                       <div class="circle-box1 mt-2">
                         <button class="black-circle" onclick="buttonclick(4)">4</button>
                         <button class="black-circle" onclick="buttonclick(5)">5</button>
                         <button class="black-circle" onclick="buttonclick(6)">6</button>
-                        <button class="circle" onclick="buttonclick(-)">-</button>
+                        <button class="circle" onclick="subtraction()">-</button>
                       </div>
                       <div class="circle-box1 mt-2">
                         <button class="black-circle"onclick="buttonclick(1)">1</button>
                         <button class="black-circle" onclick="buttonclick(2)">2</button>
                         <button class="black-circle" onclick="buttonclick(3)">3</button>
-                        <button class="circle" id="add" onclick="buttonclick(+)">+</button>
+                        <button class="circle" id="add" onclick="add()">+</button>
                       </div>
                       <div class="circle-box1 mt-2">
                         <button class="circle" onclick="buttonclick(a)">00</button>
                         <button class="black-circle" onclick="buttonclick(0)">0</button>
-                        <button class="circle">.</button>
+                        <button class="circle" onclick="dot('.')">.</button>
                         <button class="yellow-circle" onclick="equal()">=</button>
                       </div>
                     </div>
