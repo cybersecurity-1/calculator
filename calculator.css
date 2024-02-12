@@ -9,6 +9,8 @@
     min-height: 100px;
     position: absolute;
     top: calc(50% - 28%);
+    padding-left: 15px;
+    font-size: 20px;
    
   
 }
